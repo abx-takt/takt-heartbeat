@@ -21,5 +21,7 @@ ots verify latest.txt.ots
 curl -s https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/ROUND
 ```
 
-A heartbeat is valid when its signature verifies, its OpenTimestamps proof is complete, and the
-drand round it names exists with the randomness it quotes. Every heartbeat is kept in `heartbeats/`.
+For TAKT escrow vaults a heartbeat counts when it is signed by a key in `allowed_signers` (the
+main heartbeat key or the backup key, which is kept offline) and its "Issued (UTC)" time is not in
+the future; vaults read it here, on GitHub, only. The drand round and the OpenTimestamps proof are
+additional evidence of its time. Every heartbeat is kept in `heartbeats/`.
