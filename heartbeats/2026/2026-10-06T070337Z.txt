@@ -1,0 +1,9 @@
+TAKT heartbeat
+Provider: ABX DEVELOPMENT LLP, registered in Scotland, SO301872
+Sequence: 1
+Issued (UTC): 2026-10-06T07:03:37Z
+drand quicknet round: 32822292
+drand randomness: 21a2ee709e1bf464162397c7eb3e990ccdb6a53929c8e0e12bb5e916a5b13432
+Statement: TAKT operates its service (https://taktcycles.com).
+Next heartbeat due within 7 days. Terms of Service, clause 8: no valid heartbeat for 90 days means
+TAKT has ceased to provide the service.
